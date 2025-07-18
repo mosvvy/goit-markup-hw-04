@@ -440,10 +440,10 @@ body {
 .footer-section .container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  /* gap: 120px; */
 }
 
-.fooser-1st {
+.footer-1st {
   margin-right: 120px;
 }
 
@@ -464,6 +464,8 @@ body {
 .footer-social-title {
   font-weight: 500;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .footer-section .social-links-list {
