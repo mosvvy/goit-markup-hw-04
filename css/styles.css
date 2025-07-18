@@ -29,6 +29,10 @@ ul {
   list-style-type: none;
 }
 
+svg {
+  fill: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -60,6 +64,27 @@ body {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.social-links-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-icon {
+  fill: #e7e9fc;
+  width: 24px;
+  height: 24px;
 }
 
 /* HEADER */
@@ -282,7 +307,17 @@ body {
 
 .team-item-text {
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   text-align: center;
+}
+
+.team-item-description .social-links-list {
+  margin: 0 24px;
+}
+
+.team-item-description .social-icon {
+  width: 12px;
+  height: 12px;
 }
 
 /* PORTFOLIO */
@@ -341,6 +376,12 @@ body {
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
+  color: #f4f4fd;
+}
+
+.footer-section .container {
+  display: flex;
+  gap: 120px;
 }
 
 .footer-section .logo {
@@ -354,5 +395,13 @@ body {
 .footer-text {
   max-width: 264px;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+}
+
+.footer-social-title {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.footer-section .social-links-list {
+  gap: 16px;
 }
