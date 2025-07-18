@@ -205,6 +205,19 @@ body {
   letter-spacing: 0.02em;
 }
 
+.advsntagec-icon-container {
+  background-color: #f4f4fd;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.advantages-item-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .advantages-item-title {
   font-weight: 500;
   font-size: 20px;
