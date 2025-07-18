@@ -403,7 +403,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item-card:hover .portfolio-item-image-desc {
+.portfolio-item:hover .portfolio-item-image-desc {
   transform: translateY(0%);
 }
 
